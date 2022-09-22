@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(238, 177, 113);
+  
+  }
+  
+  h1{
+      color: hsla(0, 92%, 14%, 0.76);
+    font-size: 40px;
+     font-size-adjust: inherit;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     border: 50px;
+     text-align: center;
+     text-decoration: underline overline  rgba(105, 1, 1, 0.432);
+  }
+  
+  .comeco{
+    color: black;
+    text-align: center;
+   font-size: 20px;
+   text-decoration: underline;
+  }
+     .Container{
+    max-width: 300px;
+   border: 10px solid black;
+    margin: 50px;
+    margin-bottom: 50px;
+    text-align: justify;
+   color: rgb(17, 5, 5)
+    
+  
+  
+  
+     }
+     .itens{
+      text-align: justify;
+     }
+  
+     .final{
+      margin-bottom: 10px;
+      text-align: justify;
+      text-align: center;
+     }
+  
+     .meio{
+  text-align: center;
+  animation: go-back 7s infinite alternate;
+  
+  }@keyframes go-back {
+    from {
+      transform:rotatex(360deg);
+    }
+    to {
+      transform: rotatex(0);
+    }
+  
+  
+  
+  
+      }
+  
+     
